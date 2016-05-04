@@ -17,7 +17,7 @@ var api = new ParseServer({
   appId: process.env.APP_ID || 'lbuIsB3LxbKTz90yPfdB',
   masterKey: process.env.MASTER_KEY || 'w2dO6F2xGKaUDcaEXTXl', //Add your master key here. Keep it secret!
 clientKey: '0bD4qcqWpsJfYTxALPax’,
-  serverURL: process.env.SERVER_URL || 'http://test-rana.herokuapp.com/parse',  // Don't forget to change to https if needed
+  serverURL: process.env.SERVER_URL || 'http://betteru-app.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
